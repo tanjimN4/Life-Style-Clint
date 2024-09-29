@@ -1,0 +1,363 @@
+[
+    {
+      "product_name": "Graphic Printed T-shirt",
+      "owner_name": "John Doe",
+      "email": "john.doe@example.com",
+      "product_image": "https://i.ibb.co/k9TtnxR/Rectangle-21.png",
+      "category": "Printed T-shirts",
+      "product_category": "Men",
+      "price": 19.99,
+      "product_description": {
+        "Description": "This Graphic Printed T-shirt is perfect for making a statement with style. Featuring high-quality print, it adds a bold touch to your casual wardrobe. Made from soft, breathable cotton, this T-shirt ensures all-day comfort whether you're out with friends or lounging at home.",
+        "Fabric": "100% Cotton",
+        "Pattern": "Printed",
+        "Fit": "Regular",
+        "Neck": "Crew Neck",
+        "Sleeve": "Short Sleeve",
+        "Style": "Casual, Streetwear"
+      }
+    },
+    {
+      "product_name": "Basic Plain T-shirt",
+      "owner_name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "product_image": "https://i.ibb.co/HdZXxBp/Rectangle-22.png",
+      "category": "Plain T-shirts",
+      "product_category": "Men",
+      "price": 14.99,
+      "product_description": {
+        "Description": "Our Basic Plain T-shirt is designed for simplicity and comfort. The versatile, minimalist style makes it a go-to option for everyday wear. Whether layered under a jacket or worn on its own, this T-shirt offers a timeless look that never goes out of style.",
+        "Fabric": "50% Cotton, 50% Polyester",
+        "Pattern": "Solid",
+        "Fit": "Slim",
+        "Neck": "V-Neck",
+        "Sleeve": "Short Sleeve",
+        "Style": "Minimalist, Everyday Wear"
+      }
+    },
+    {
+      "product_name": "Long Sleeve T-shirt",
+      "owner_name": "Michael Lee",
+      "email": "michael.lee@example.com",
+      "product_image": "https://i.ibb.co/zVbCcWT/Rectangle-28.png",
+      "category": "Full sleeve T-shirts",
+      "product_category": "Men",
+      "price": 24.99,
+      "product_description": {
+        "Description": "Stay comfortable and stylish with our Long Sleeve T-shirt, designed for those cooler days. The soft fabric and breathable design make it a perfect choice for layering or wearing on its own.",
+        "Fabric": "80% Cotton, 20% Spandex",
+        "Pattern": "Solid",
+        "Fit": "Regular",
+        "Neck": "Round Neck",
+        "Sleeve": "Long Sleeve",
+        "Style": "Casual, Layering Piece"
+      }
+    },
+    {
+      "product_name": "Comfort Joggers",
+      "owner_name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "product_image": "https://i.ibb.co/tm4sNpC/photographer-white-background.png",
+      "category": "Joggers",
+      "product_category": "Men",
+      "price": 29.99,
+      "product_description": {
+        "Description": "These Comfort Joggers are the perfect blend of functionality and style. Whether you're heading to the gym or relaxing at home, these joggers offer the ultimate comfort with a relaxed fit and a drawstring waistband.",
+        "Fabric": "Polyester Blend",
+        "Pattern": "Solid",
+        "Fit": "Relaxed",
+        "Neck": "Elastic Waistband",
+        "Sleeve": "Joggers",
+        "Style": "Athleisure, Casual"
+      }
+    },
+    {
+      "product_name": "Slim Fit Jeans",
+      "owner_name": "Chris Johnson",
+      "email": "chris.johnson@example.com",
+      "product_image": "https://i.ibb.co/sPmB2wp/Rectangle-21-1.png",
+      "category": "Jeans",
+      "product_category": "Men",
+      "price": 39.99,
+      "product_description": {
+        "Description": "Our Slim Fit Jeans are designed to provide a sleek, modern look without compromising on comfort. Made from durable denim with a slight stretch, these jeans offer a flattering fit that hugs the body in all the right places.",
+        "Fabric": "Denim",
+        "Pattern": "Solid",
+        "Fit": "Slim",
+        "Neck": "Mid-Rise Waist",
+        "Sleeve": "Jeans",
+        "Style": "Casual, Versatile"
+      }
+    },
+    {
+      "product_name": "Classic Polo Shirt",
+      "owner_name": "Sam Wilson",
+      "email": "sam.wilson@example.com",
+      "product_image": "https://i.ibb.co/FK456LV/Rectangle-28-1.png",
+      "category": "Printed T-shirts",
+      "product_category": "Men",
+      "price": 21.99,
+      "product_description": {
+        "Description": "The Classic Polo Shirt offers timeless style with a comfortable fit. Made with breathable fabric, this polo shirt is ideal for casual and semi-formal events. It brings a polished yet relaxed look to your wardrobe.",
+        "Fabric": "60% Cotton, 40% Polyester",
+        "Pattern": "Solid",
+        "Fit": "Regular",
+        "Neck": "Polo Collar",
+        "Sleeve": "Short Sleeve",
+        "Style": "Casual, Semi-Formal"
+      }
+    },
+    {
+      "product_name": "Athletic Performance T-shirt",
+      "owner_name": "Sara Miller",
+      "email": "sara.miller@example.com",
+      "product_image": "https://i.ibb.co/NSTJhBc/download.jpg",
+      "category": "Plain T-shirts",
+      "product_category": "Men",
+      "price": 17.99,
+      "product_description": {
+        "Description": "Our Athletic Performance T-shirt is perfect for high-intensity workouts. The moisture-wicking fabric keeps you dry and comfortable, making it an ideal choice for running, gym sessions, or any other physical activity.",
+        "Fabric": "90% Polyester, 10% Spandex",
+        "Pattern": "Solid",
+        "Fit": "Athletic",
+        "Neck": "Crew Neck",
+        "Sleeve": "Short Sleeve",
+        "Style": "Athletic, Activewear"
+      }
+    },
+    {
+      "product_name": "Casual Full Sleeve T-shirt",
+      "owner_name": "David Clark",
+      "email": "david.clark@example.com",
+      "product_image": "https://i.ibb.co/h1LV85s/Rectangle-20-1.png",
+      "category": "Full sleeve T-shirts",
+      "product_category": "Men",
+      "price": 22.99,
+      "product_description": {
+        "Description": "This Casual Full Sleeve T-shirt is designed for everyday comfort. With its relaxed fit and soft fabric, it’s perfect for wearing on cooler days or when you just want a laid-back look.",
+        "Fabric": "100% Cotton",
+        "Pattern": "Solid",
+        "Fit": "Regular",
+        "Neck": "Crew Neck",
+        "Sleeve": "Long Sleeve",
+        "Style": "Casual, Weekend Wear"
+      }
+    },
+    {
+      "product_name": "Summer Vibes Printed T-shirt",
+      "owner_name": "Olivia Brown",
+      "email": "olivia.brown@example.com",
+      "product_image": "https://i.ibb.co/h8SCrXJ/download-1.jpg",
+      "category": "Printed T-shirts",
+      "product_category": "Men",
+      "price": 18.99,
+      "product_description": {
+        "Description": "Our Summer Vibes Printed T-shirt features a colorful, beach-inspired design that's perfect for warm-weather wear. Made with lightweight cotton, this T-shirt keeps you cool and comfortable during the hottest days of summer.",
+        "Fabric": "100% Cotton",
+        "Pattern": "Printed",
+        "Fit": "Regular",
+        "Neck": "Crew Neck",
+        "Sleeve": "Short Sleeve",
+        "Style": "Casual, Summer Wear"
+      }
+    },
+    {
+      "product_name": "Essential Crew Neck T-shirt",
+      "owner_name": "Ethan White",
+      "email": "ethan.white@example.com",
+      "product_image": "https://i.ibb.co/zVbCcWT/Rectangle-28.png",
+      "category": "Plain T-shirts",
+      "product_category": "Men",
+      "price": 12.99,
+      "product_description": {
+        "Description": "The Essential Crew Neck T-shirt offers a clean, minimalist design with a perfect balance of comfort and style. Ideal for layering or wearing solo, this T-shirt is a must-have for every wardrobe.",
+        "Fabric": "100% Cotton",
+        "Pattern": "Solid",
+        "Fit": "Regular",
+        "Neck": "Crew Neck",
+        "Sleeve": "Short Sleeve",
+        "Style": "Casual, Everyday Wear"
+      }
+    },
+    {
+        "product_name": "Chic Maxi Dress",
+        "owner_name": "Sophia Green",
+        "email": "sophia.green@example.com",
+        "product_image": "https://i.ibb.co/YLzdf2d/Rectangle-25-5.png",
+        "category": "Dresses",
+        "product_category": "Women",
+        "price": 49.99,
+        "product_description": {
+          "Description": "This Chic Maxi Dress combines elegance with comfort, making it perfect for both casual outings and special occasions. The soft fabric flows beautifully, while the stunning design ensures you stand out. Perfect for summer events or beach vacations.",
+          "Fabric": "100% Cotton",
+          "Pattern": "Solid",
+          "Fit": "Relaxed",
+          "Neck": "Round Neck",
+          "Sleeve": "Sleeveless",
+          "Style": "Bohemian, Casual"
+        }
+      },
+      {
+        "product_name": "Stylish Blazer",
+        "owner_name": "Emma Wilson",
+        "email": "emma.wilson@example.com",
+        "product_image": "https://i.ibb.co/SfscDCh/Rectangle-25-1.png",
+        "category": "Blazers",
+        "product_category": "Women",
+        "price": 59.99,
+        "product_description": {
+          "Description": "Elevate your office wardrobe with this Stylish Blazer. Made from high-quality fabric, this blazer features a tailored fit that complements any outfit, whether it's for a formal meeting or a night out. Pair it with trousers or a dress for a polished look.",
+          "Fabric": "75% Polyester, 25% Viscose",
+          "Pattern": "Solid",
+          "Fit": "Tailored",
+          "Neck": "Notched Lapel",
+          "Sleeve": "Long Sleeve",
+          "Style": "Business Casual, Elegant"
+        }
+      },
+      {
+        "product_name": "Casual Graphic T-Shirt",
+        "owner_name": "Ava Johnson",
+        "email": "ava.johnson@example.com",
+        "product_image": "https://i.ibb.co/bJVtTyw/download-2.jpg",
+        "category": "T-Shirts",
+        "product_category": "Women",
+        "price": 24.99,
+        "product_description": {
+          "Description": "Express your personality with our Casual Graphic T-Shirt. Made from soft, breathable cotton, it features a fun graphic design that is perfect for casual outings. Pair it with jeans or shorts for a laid-back look that’s stylish and comfortable.",
+          "Fabric": "100% Cotton",
+          "Pattern": "Graphic Print",
+          "Fit": "Regular",
+          "Neck": "Crew Neck",
+          "Sleeve": "Short Sleeve",
+          "Style": "Casual, Trendy"
+        }
+      },
+      {
+        "product_name": "Elegant Pencil Skirt",
+        "owner_name": "Mia Brown",
+        "email": "mia.brown@example.com",
+        "product_image": "https://i.ibb.co/BgRjFbf/download-3.jpg",
+        "category": "Skirts",
+        "product_category": "Women",
+        "price": 39.99,
+        "product_description": {
+          "Description": "This Elegant Pencil Skirt is a versatile piece that can be dressed up or down. The fitted design accentuates your figure while providing comfort for all-day wear. Perfect for the office or an evening out when paired with a stylish top.",
+          "Fabric": "Polyester Blend",
+          "Pattern": "Solid",
+          "Fit": "Fitted",
+          "Neck": "N/A",
+          "Sleeve": "N/A",
+          "Style": "Business Casual, Elegant"
+        }
+      },
+      {
+        "product_name": "Comfy Lounge Set",
+        "owner_name": "Olivia Davis",
+        "email": "olivia.davis@example.com",
+        "product_image": "https://i.ibb.co/0JVJvwx/Rectangle-25-3.png",
+        "category": "Loungewear",
+        "product_category": "Women",
+        "price": 44.99,
+        "product_description": {
+          "Description": "Stay cozy and stylish with our Comfy Lounge Set. Made from soft fabric, this two-piece set is perfect for relaxing at home or running errands. The breathable material ensures comfort while keeping you looking chic.",
+          "Fabric": "80% Cotton, 20% Polyester",
+          "Pattern": "Solid",
+          "Fit": "Relaxed",
+          "Neck": "Crew Neck",
+          "Sleeve": "Short Sleeve",
+          "Style": "Casual, Loungewear"
+        }
+      },
+      {
+        "product_name": "Classic Denim Jacket",
+        "owner_name": "Charlotte Taylor",
+        "email": "charlotte.taylor@example.com",
+        "product_image": "https://i.ibb.co/v3X6SD9/Rectangle-25-4.png",
+        "category": "Jackets",
+        "product_category": "Women",
+        "price": 54.99,
+        "product_description": {
+          "Description": "The Classic Denim Jacket is a must-have staple for any wardrobe. Featuring a timeless design, this jacket pairs perfectly with dresses, skirts, or jeans. Made from durable denim, it offers both style and warmth for any season.",
+          "Fabric": "100% Cotton Denim",
+          "Pattern": "Solid",
+          "Fit": "Regular",
+          "Neck": "Collared",
+          "Sleeve": "Long Sleeve",
+          "Style": "Casual, Versatile"
+        }
+      },
+      {
+        "product_name": "Trendy Ankle Boots",
+        "owner_name": "Amelia Martinez",
+        "email": "amelia.martinez@example.com",
+        "product_image": "https://i.ibb.co/0rCMXX8/download-4.jpg",
+        "category": "Footwear",
+        "product_category": "Women",
+        "price": 69.99,
+        "product_description": {
+          "Description": "Step out in style with our Trendy Ankle Boots. These versatile boots can elevate any outfit, whether paired with jeans or a dress. The sturdy design provides comfort and durability for all-day wear.",
+          "Fabric": "Genuine Leather",
+          "Pattern": "Solid",
+          "Fit": "True to Size",
+          "Neck": "N/A",
+          "Sleeve": "N/A",
+          "Style": "Trendy, Casual"
+        }
+      },
+      {
+        "product_name": "Bohemian Style Top",
+        "owner_name": "Isabella Harris",
+        "email": "isabella.harris@example.com",
+        "product_image": "https://i.ibb.co/qWj8x2K/download-5.jpg",
+        "category": "Tops",
+        "product_category": "Women",
+        "price": 34.99,
+        "product_description": {
+          "Description": "Embrace your free spirit with our Bohemian Style Top. Featuring intricate detailing and a relaxed fit, this top is perfect for casual days out or beach vacations. Pair it with shorts or skirts for an effortlessly stylish look.",
+          "Fabric": "100% Cotton",
+          "Pattern": "Embroidered",
+          "Fit": "Loose",
+          "Neck": "V-Neck",
+          "Sleeve": "Long Sleeve",
+          "Style": "Bohemian, Casual"
+        }
+      },
+      {
+        "product_name": "Summer Floral Skirt",
+        "owner_name": "Grace White",
+        "email": "grace.white@example.com",
+        "product_image": "https://i.ibb.co/8zK3CyD/Rectangle-25-6.png",
+        "category": "Skirts",
+        "product_category": "Women",
+        "price": 39.99,
+        "product_description": {
+          "Description": "Brighten up your wardrobe with our Summer Floral Skirt. This vibrant skirt features a beautiful floral pattern, perfect for sunny days. The lightweight fabric ensures comfort, making it a great choice for casual outings or picnics.",
+          "Fabric": "100% Cotton",
+          "Pattern": "Floral",
+          "Fit": "A-Line",
+          "Neck": "N/A",
+          "Sleeve": "N/A",
+          "Style": "Casual, Summer"
+        }
+      },
+      {
+        "product_name": "Chic Wide-Leg Pants",
+        "owner_name": "Harper Robinson",
+        "email": "harper.robinson@example.com",
+        "product_image": "https://i.ibb.co/6gJn1rX/download-6.jpg",
+        "category": "Pants",
+        "product_category": "Women",
+        "price": 49.99,
+        "product_description": {
+          "Description": "Our Chic Wide-Leg Pants are the perfect combination of comfort and style. The flowy fabric offers a flattering silhouette that can be dressed up or down for any occasion. Pair these pants with a fitted top for a balanced look.",
+          "Fabric": "100% Polyester",
+          "Pattern": "Solid",
+          "Fit": "Wide-Leg",
+          "Neck": "N/A",
+          "Sleeve": "N/A",
+          "Style": "Chic, Casual"
+        }
+      }
+  ]
+  

@@ -1,0 +1,19 @@
+.custom-prev,
+.custom-next {
+  color: white;          /* Change the arrow color to white */
+  font-weight: bold;     /* Make the arrows bold */
+  font-size: 2rem;       /* Adjust the size as needed */
+  cursor: pointer;       /* Show pointer on hover */
+  position: absolute;    /* Position the arrows absolutely */
+  top: 50%;              /* Center vertically */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  z-index: 10;          /* Ensure arrows are above other content */
+}
+
+.custom-prev {
+  left: 10px;            /* Position the previous button */
+}
+
+.custom-next {
+  right: 10px;           /* Position the next button */
+}
