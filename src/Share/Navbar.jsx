@@ -34,7 +34,9 @@ const Navbar = () => {
         {
             user ? <li><Link to='/addchart'><span className='bg-slate-500 px-1 flex items-center text-center rounded-lg'><MdShoppingCart className='text-red-700'/><p className='text-white ml-1 font-semibold'> {addchart.length}</p></span>Chart</Link></li> : <p></p>
         }
-        <li><Link to='/dashboard'><MdDashboard className='text-orange-500 text-xl' />DashBord</Link></li>
+       {
+        user ?  <li><Link to='/dashboard'><MdDashboard className='text-orange-500 text-xl' />DashBord</Link></li> : <li></li>
+       }
     </>
 
     return (

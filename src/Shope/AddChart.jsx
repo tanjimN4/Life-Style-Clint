@@ -6,6 +6,9 @@ import { createColumnHelper, flexRender, getCoreRowModel, getPaginationRowModel,
 import { MdDeleteForever } from 'react-icons/md';
 import Swal from 'sweetalert2';
 import Proceed from './Proceed';
+import imageNoData from '../assets/image/Group.png';
+import { Link } from 'react-router-dom';
+
 
 const AddChart = () => {
     const axiospublic = useAxiosPublic()
@@ -24,13 +27,13 @@ const AddChart = () => {
     const filteredData = useMemo(() => {
         return addchart.filter(item => item.user_email === user.email);
     }, [addchart, user]);
-    
+
     useEffect(() => {
         setFilter(filteredData);
     }, [filteredData]);
 
-    const totalPrice = filter.reduce((total,fill)=>total+fill.price,0)
-    
+    const totalPrice = filter.reduce((total, fill) => total + fill.price, 0)
+
     const columnHelper = createColumnHelper()
 
     const columns = [
@@ -69,6 +72,11 @@ const AddChart = () => {
             cell: (info) => <button onClick={() => handleDelete(info.getValue())}><MdDeleteForever className='text-red-600 text-3xl' /></button>,
             header: "Delete",
         }),
+        columnHelper.accessor("_id", {
+            cell: (info) => <button onClick={() => handleDelete(info.getValue())}><MdDeleteForever className='text-red-600 text-3xl' /></button>,
+            header: "Delete",
+        }),
+        
     ]
     const table = useReactTable({
         data: filter,
@@ -102,6 +110,14 @@ const AddChart = () => {
 
     if (isLoading) {
         return <div>Loading...</div>
+    }
+    if (filter.length === 0) {
+        return <div className=' my-10 bg-slate-300 rounded-xl text-center'>
+            <div className='text-center items-center flex justify-center py-10'>
+                <img src={imageNoData} alt="" />
+            </div>
+            <Link className='btn border-none text-center mb-5 hover:bg-cyan-200 bg-[#8A33FD]' to='/shop'>Continue Shopping</Link>
+        </div>
     }
 
     return (
@@ -151,7 +167,7 @@ const AddChart = () => {
                     </div>
                 }
             </div>
-            <Proceed totalPrice={totalPrice}></Proceed>
+            <Proceed totalPrice={totalPrice} filter={filter}></Proceed>
         </div>
     );
 };

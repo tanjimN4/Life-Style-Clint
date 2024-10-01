@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from '@stripe/react-stripe-js';
+import ChexkoutForm from '../CheckoutFrom/ChexkoutForm';
 
-const Proceed = ({ totalPrice }) => {
+
+const stripePromise = loadStripe('pk_test_51PqcMUCQvL7wOKpxqO9jUNz3P65rawVXbmyPTiTkQxTckuiksSZO5kGfX92ojSIIyGYMquClRNW8DVwojVOi2l9M004VNRwhh2');
+
+const Proceed = ({ totalPrice,filter }) => {
     const price = totalPrice
 
 
@@ -70,13 +76,16 @@ const Proceed = ({ totalPrice }) => {
                         {/* You can open the modal using document.getElementById('ID').showModal() method */}
                         <button className="w-full bg-purple-600 text-white mt-6 py-2 rounded-md hover:bg-purple-700" onClick={() => document.getElementById('my_modal_3').showModal()}>Proceed To Checkout</button>
                         <dialog id="my_modal_3" className="modal">
-                            <div className="modal-box">
+                            <div className="modal-box bg-slate-200">
                                 <form method="dialog">
                                     {/* if there is a button in form, it will close the modal */}
                                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                 </form>
-                                <h3 className="font-bold text-lg">Hello!</h3>
-                                <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                                <div>
+                                    <Elements stripe={stripePromise}>
+                                        <ChexkoutForm discount={discount} filter={filter}></ChexkoutForm>
+                                    </Elements>
+                                </div>
                             </div>
                         </dialog>
                     </div>
