@@ -1,11 +1,11 @@
 import React from 'react';
 
-const User = () => {
+const AddItems = () => {
     return (
         <div>
-            good rytuigopop
+            
         </div>
     );
 };
 
-export default User;
+export default AddItems;

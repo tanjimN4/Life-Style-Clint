@@ -9,10 +9,12 @@ import Register from '../Login&Register/Register';
 import Private from './Private';
 import AddChart from '../Shope/AddChart';
 import Dashboard from '../Dashboard/Dashboard';
-import User from '../Dashboard/User';
 import AddItem from '../Dashboard/AddItem';
 import MyAddItem from '../Dashboard/MyAddItem';
 import MyOrder from '../Dashboard/MyOrder';
+import Users from '../Dashboard/Users';
+import AddItems from '../Dashboard/AddItems';
+import Orders from '../Dashboard/Orders';
 
 
 export const router = createBrowserRouter([
@@ -50,10 +52,6 @@ export const router = createBrowserRouter([
         element: <Private><Dashboard></Dashboard></Private>,
         children: [
             {
-                path: 'user',
-                element: <User></User>
-            },
-            {
                 path: 'additem',
                 element: <AddItem></AddItem>
             },
@@ -64,6 +62,19 @@ export const router = createBrowserRouter([
             {
                 path: 'myorder',
                 element: <MyOrder></MyOrder>
+            },
+            //admin
+            {
+                path: 'users',
+                element: <Users></Users>
+            },
+            {
+                path: 'Orders',
+                element: <Orders></Orders>
+            },
+            {
+                path: 'additems',
+                element:<AddItems></AddItems>
             },
         ]
     }

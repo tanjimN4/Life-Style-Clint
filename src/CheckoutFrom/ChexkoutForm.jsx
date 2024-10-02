@@ -83,7 +83,7 @@ const ChexkoutForm = ({ discount, filter }) => {
             console.log('Payment succeeded!', paymentIntent);
             const filteredData = filter.map(item => {
                 const { _id, ...dataWithoutId } = item; // Remove _id
-                return dataWithoutId; // Wrap each object in a "data" key
+                return {...dataWithoutId ,order_status: 'pending'}; // Wrap each object in a "data" key
             });
             axiospublic.post('/add/chart/payment', filteredData)
                 .then(res => {
